@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <RootNamespace>Numeronym_Generator</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>Numeronym_Generator.Program</StartupObject>
+    <ApplicationIcon>Resources\n7m.ico</ApplicationIcon>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Title>Numeronym Generator</Title>
+    <Authors>Michael Johne</Authors>
+    <Company>Mijo Software</Company>
+    <Description>A numeronym is a word where a number is used to form an abbreviation. For example, 'i18n' is a numeronym of 'internationalization' where 18 stands for the number of letters between the first i and the last n in the word.
+
+</Description>
+    <Copyright>The Unlicense</Copyright>
+    <Version>1.0.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\n7m.ico" />
+  </ItemGroup>
+
+</Project>
