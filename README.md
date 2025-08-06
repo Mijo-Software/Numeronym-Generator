@@ -1,0 +1,2 @@
+# Numeronym-Generator
+A numeronym is a word where a number is used to form an abbreviation. For example, 'i18n' is a numeronym of 'internationalization' where 18 stands for the number of letters between the first i and the last n in the word.
